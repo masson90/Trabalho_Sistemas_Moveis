@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opcionais"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rbFerrari"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <ImageView
+        android:id="@+id/imgFerrari"
+        android:layout_width="418dp"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ferrari" />
+
+    <RadioGroup
+        android:id="@+id/rbFerrari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgFerrari"
+        app:layout_constraintVertical_bias="0.039">
+
+        <RadioButton
+            android:id="@+id/rbtV12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V12" />
+
+        <RadioButton
+            android:id="@+id/rbtV6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V6" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/chkSom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sistema de som JBL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <CheckBox
+        android:id="@+id/chkGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPS Garmin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.779"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkGPS"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <Button
+        android:id="@+id/btnFinalizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finalizar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkSom"
+        app:layout_constraintVertical_bias="0.115" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

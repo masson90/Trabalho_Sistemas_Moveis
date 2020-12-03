@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Menu</string>
+
+
+    <string name="principal">Escolha a opção no menu a cima</string>
+
+
+    <string name="imagens">Imagens</string>
+    <string name="contatos">Lista de Contatos</string>
+    <string name="maps">Maps</string>
+    <string name="sair">Sair</string>
+
+
+    <string-array name="contatos">
+        <item>André</item>
+        <item>Daniel</item>
+        <item>Danilo</item>
+        <item>Luiz Dalri</item>
+        <item>Mariana</item>
+        <item>Bruno</item>
+        <item>Henrique</item>
+        <item>*Luiz carecon*</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
